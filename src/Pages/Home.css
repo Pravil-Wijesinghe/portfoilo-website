@@ -1,0 +1,90 @@
+.name{
+    font-size: 80px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 900;
+    color: #DCE1E5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.possition{
+    font-size: 30px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    color: #DCE1E5;
+    text-align: center;
+    margin-top: -65px;
+}
+
+.myPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.myPhoto img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Center the images */
+.myPhoto img:nth-child(1) {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -9%);
+  }
+  
+.myPhoto img:nth-child(2) {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -9%);
+  }
+
+  .experience-section{
+    display: flex;
+    margin-top: 410px;
+    gap: 87px;
+    justify-content: center;
+    color: #DCE1E5;
+  }
+
+  .experience-section h3{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .experience-section h3:hover{
+    transform: scale(1.2);
+  }
+
+  .about-section{
+    background: rgba(36, 38, 41, 0.6);
+    height: 600px;
+    border-radius: 120px;
+    margin-top: -30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutMe{
+    color: #DCE1E5;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+
+  .about-section h3{
+    color: #DCE1E5;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0 128px;
+    text-align: justify;
+    margin-top: 39px;
+  }
