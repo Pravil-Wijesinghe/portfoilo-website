@@ -1,24 +1,7 @@
-.header{
-    width: auto;
-    height: 58px;
-    background-color: #181919;
-    color: #DCE1E5;
-    display: flex;
-  }
-  
-  .logo{
-    font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 900;
-    font-size: 36px;
-    color: #195D15;
-    padding-left: 20px;
-    align-items: center;
-    text-decoration: none;
-  }
-  
+
   .menu-btns{
     display: flex;
-    gap: 25px;
+    gap: 35px;
     align-items: center;
     margin: auto;
     width: 50%;
